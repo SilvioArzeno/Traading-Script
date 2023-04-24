@@ -56,10 +56,10 @@ if closest_pair:
 print(f'--------------------------------------------------------\n')
 if not_closest_pair:
     print('The furthest trades to the current price are (place these last):\n')
-    print(f'Create a BUY {closest_sell_operation} with Entry Point: {not_closest_pair[0] + spread}. SL: {not_closest_pair[0]-25 + spread}. TP: {not_closest_pair[0]+100+ spread}.')
-    print(f'SET A PRICE ALARM AT {not_closest_pair[0] + 40 + spread} (BUY)\n')
     print(f'Create a SELL {closest_buy_operation} with Entry Point: {not_closest_pair[1] + spread}. SL: {not_closest_pair[1]+25 + spread}. TP: {not_closest_pair[1]-100  + spread}.')
     print(f'SET A PRICE ALARM AT  {not_closest_pair[1]-40 + spread} (SELL)\n')
+    print(f'Create a BUY {closest_sell_operation} with Entry Point: {not_closest_pair[0] + spread}. SL: {not_closest_pair[0]-25 + spread}. TP: {not_closest_pair[0]+100+ spread}.')
+    print(f'SET A PRICE ALARM AT {not_closest_pair[0] + 40 + spread} (BUY)\n')
 
     # add this at the end of your script
 input("Press enter to exit")
