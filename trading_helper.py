@@ -40,26 +40,46 @@ not_closest_pair = lesser_pair if closest_pair == greater_pair else greater_pair
 
 is_closest_lesser = lesser_pair == closest_pair
 
-closest_buy_operation = 'LIMIT' if is_closest_lesser else 'STOP'
+closest_first_operation = 'SELL STOP' if is_closest_lesser else 'BUY LIMIT'
 
-closest_sell_operation = 'STOP' if is_closest_lesser else 'LIMIT'
+closest_second_operation = 'BUY LIMIT' if is_closest_lesser else 'SELL STOP'
+
+not_closest_first_operaton ='BUY STOP' if is_closest_lesser else 'SELL LIMIT'
+not_closest_second_operaton ='SELL LIMIT' if is_closest_lesser else 'BUY STOP'
 
 
 # Print the results
 print(f'The current Price is {input_num}. with a {spread} spread.\n')
 if closest_pair:
+    first_entry_point = closest_pair[1] + spread if is_closest_lesser else closest_pair[0] + spread
+    first_sl = first_entry_point + 25 if is_closest_lesser else first_entry_point - 25
+    first_tp = first_entry_point - 100 if is_closest_lesser else first_entry_point + 100
+    first_alarm = first_entry_point - 40 if is_closest_lesser else first_entry_point +40
+    second_entry_point = closest_pair[0] + spread if is_closest_lesser else closest_pair[1] + spread
+    second_sl = second_entry_point - 25 if is_closest_lesser else second_entry_point + 25
+    second_tp = second_entry_point + 100 if is_closest_lesser else second_entry_point - 100
+    second_alarm = second_entry_point + 40 if is_closest_lesser else second_entry_point -40
+
     print('The closest trades to the current price are (place these first): \n')
-    print(f'Create a BUY {closest_buy_operation} with Entry Point: {closest_pair[0] + spread}. SL: {closest_pair[0]-25 + spread}. TP: {closest_pair[0]+100 + spread}.')
-    print(f'SET A PRICE ALARM AT {closest_pair[0] + 40 + spread} (BUY)\n')
-    print(f'Create a SELL {closest_sell_operation} with Entry Point: {closest_pair[1] + spread}. SL: {closest_pair[1]+25 + spread}. TP: {closest_pair[1]-100 + spread}.')
-    print(f'SET A PRICE ALARM AT  {closest_pair[1] - 40 + spread} (SELL) \n')
+    print(f'Create a {closest_first_operation} with Entry Point: {first_entry_point}. SL: {first_sl}. TP: {first_tp}.')
+    print(f'SET A PRICE ALARM AT {first_alarm}\n')
+    print(f'Create a {closest_second_operation} with Entry Point: {second_entry_point}. SL: {second_sl}. TP: {second_tp}.')
+    print(f'SET A PRICE ALARM AT  {second_alarm} \n')
 print(f'--------------------------------------------------------\n')
 if not_closest_pair:
+    first_entry_point = not_closest_pair[0] + spread if is_closest_lesser else not_closest_pair[1] + spread
+    first_sl = first_entry_point + 25 if is_closest_lesser else first_entry_point - 25
+    first_tp = first_entry_point - 100 if is_closest_lesser else first_entry_point + 100
+    first_alarm = first_entry_point - 40 if is_closest_lesser else first_entry_point +40
+    second_entry_point = closest_pair[0] + spread if is_closest_lesser else closest_pair[1] + spread
+    second_sl = second_entry_point - 25 if is_closest_lesser else second_entry_point + 25
+    second_tp = second_entry_point + 100 if is_closest_lesser else second_entry_point - 100
+    second_alarm = second_entry_point + 40 if is_closest_lesser else second_entry_point -40
     print('The furthest trades to the current price are (place these last):\n')
-    print(f'Create a SELL {closest_buy_operation} with Entry Point: {not_closest_pair[1] + spread}. SL: {not_closest_pair[1]+25 + spread}. TP: {not_closest_pair[1]-100  + spread}.')
-    print(f'SET A PRICE ALARM AT  {not_closest_pair[1]-40 + spread} (SELL)\n')
-    print(f'Create a BUY {closest_sell_operation} with Entry Point: {not_closest_pair[0] + spread}. SL: {not_closest_pair[0]-25 + spread}. TP: {not_closest_pair[0]+100+ spread}.')
-    print(f'SET A PRICE ALARM AT {not_closest_pair[0] + 40 + spread} (BUY)\n')
+    print(f'Create a {not_closest_first_operaton} with Entry Point: {first_entry_point}. SL: {first_sl}. TP: {first_tp}.')
+    print(f'SET A PRICE ALARM AT  {first_alarm}\n')
+    print(f'Create a {not_closest_second_operaton} with Entry Point: {second_entry_point}. SL: {second_sl}. TP: {second_tp}.')
+    print(f'SET A PRICE ALARM AT {second_alarm}\n')
 
     # add this at the end of your script
 input("Press enter to exit")
