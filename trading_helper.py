@@ -40,12 +40,12 @@ not_closest_pair = lesser_pair if closest_pair == greater_pair else greater_pair
 
 is_closest_lesser = lesser_pair == closest_pair
 
-closest_first_operation = 'SELL STOP' if is_closest_lesser else 'BUY LIMIT'
+closest_first_operation = 'SELL STOP' if is_closest_lesser else 'BUY STOP'
 
-closest_second_operation = 'BUY LIMIT' if is_closest_lesser else 'SELL STOP'
+closest_second_operation = 'BUY LIMIT' if is_closest_lesser else 'SELL LIMIT'
 
-not_closest_first_operaton ='BUY STOP' if is_closest_lesser else 'SELL LIMIT'
-not_closest_second_operaton ='SELL LIMIT' if is_closest_lesser else 'BUY STOP'
+not_closest_first_operaton ='BUY STOP' if is_closest_lesser else 'SELL STOP'
+not_closest_second_operaton ='SELL LIMIT' if is_closest_lesser else 'BUY LIMIT'
 
 
 # Print the results
