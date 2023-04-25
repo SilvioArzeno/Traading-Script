@@ -40,26 +40,14 @@
   ('trading_helper',
    'D:\\Algorithms\\TradingHelper\\trading_helper.py',
    'PYSOURCE'),
-  ('python37.dll',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\python37.dll',
-   'BINARY'),
   ('VCRUNTIME140.dll',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\VCRUNTIME140.dll',
    'BINARY'),
-  ('select.pyd',
+  ('python37.dll',
    'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
-   'EXTENSION'),
-  ('unicodedata.pyd',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\unicodedata.pyd',
-   'EXTENSION'),
-  ('_bz2.pyd',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_bz2.pyd',
-   'EXTENSION'),
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\python37.dll',
+   'BINARY'),
   ('_hashlib.pyd',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_hashlib.pyd',
@@ -68,13 +56,25 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_lzma.pyd',
    'EXTENSION'),
+  ('_bz2.pyd',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
   ('_ssl.pyd',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_ssl.pyd',
    'EXTENSION'),
+  ('select.pyd',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
+   'EXTENSION'),
   ('_socket.pyd',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
   ('libcrypto-1_1.dll',
    'c:\\users\\silvio '
@@ -90,7 +90,7 @@
  [],
  False,
  False,
- 1682392886,
+ 1682427648,
  [('run.exe',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-32bit-intel\\run.exe',

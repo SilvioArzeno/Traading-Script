@@ -68,13 +68,13 @@ if closest_pair:
 print(f'--------------------------------------------------------\n')
 if not_closest_pair:
     first_entry_point = not_closest_pair[0] + spread if is_closest_lesser else not_closest_pair[1] + spread
-    first_sl = first_entry_point + 25 if is_closest_lesser else first_entry_point - 25
-    first_tp = first_entry_point - 100 if is_closest_lesser else first_entry_point + 100
-    first_alarm = first_entry_point - 40 if is_closest_lesser else first_entry_point +40
-    second_entry_point = closest_pair[0] + spread if is_closest_lesser else closest_pair[1] + spread
-    second_sl = second_entry_point - 25 if is_closest_lesser else second_entry_point + 25
-    second_tp = second_entry_point + 100 if is_closest_lesser else second_entry_point - 100
-    second_alarm = second_entry_point + 40 if is_closest_lesser else second_entry_point -40
+    first_sl = first_entry_point - 25 if is_closest_lesser else first_entry_point + 25
+    first_tp = first_entry_point + 100 if is_closest_lesser else first_entry_point - 100
+    first_alarm = first_entry_point + 40 if is_closest_lesser else first_entry_point -40
+    second_entry_point = not_closest_pair[1] + spread if is_closest_lesser else not_closest_pair[0] + spread
+    second_sl = second_entry_point + 25 if is_closest_lesser else second_entry_point - 25
+    second_tp = second_entry_point - 100 if is_closest_lesser else second_entry_point + 100
+    second_alarm = second_entry_point - 40 if is_closest_lesser else second_entry_point +40
     print('The furthest trades to the current price are (place these last):\n')
     print(f'Create a {not_closest_first_operaton} with Entry Point: {first_entry_point}. SL: {first_sl}. TP: {first_tp}.')
     print(f'SET A PRICE ALARM AT  {first_alarm}\n')
