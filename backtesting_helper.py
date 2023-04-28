@@ -3,6 +3,7 @@ days = []
 total = 0
 max_sum = 0
 current_sum = 0
+win_rate = 0
 
 # Loop through days and get input
 print("Enter daily amounts for the month. Press ENTER to stop.")
@@ -23,6 +24,9 @@ while True:
         
         # Update max sum of consecutive days
         current_sum = max(amount, current_sum + amount)
+        # Update win rate
+        if amount > 0:
+            win_rate += 1
             
     except ValueError:
         print("Invalid input. Please enter a number.")
@@ -32,9 +36,10 @@ while True:
 current_sum = 0
 max_sum = 0
 for amount in days:
-    current_sum = current_sum + amount
+    current_sum = max(amount, current_sum + amount)
     max_sum = max(max_sum, current_sum)
 
 # Print results
-print(f"Monthly total: {total}%")
-print(f"Max Profit: {max_sum}%")
+print(f"Monthly total: {total}")
+print(f"Max sum of consecutive days: {max_sum}")
+print(f"Win rate: {win_rate}/{len(days)}%")
