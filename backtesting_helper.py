@@ -22,8 +22,7 @@ while True:
         total += amount
         
         # Update max sum of consecutive days
-        current_sum = max(current_sum + amount, amount)
-        max_sum = max(max_sum, current_sum)
+        current_sum = max(amount, current_sum + amount)
             
     except ValueError:
         print("Invalid input. Please enter a number.")
@@ -31,10 +30,11 @@ while True:
 
 # Calculate maximum sum of consecutive days
 current_sum = 0
+max_sum = 0
 for amount in days:
-    current_sum = max(current_sum + amount, amount)
+    current_sum = current_sum + amount
     max_sum = max(max_sum, current_sum)
 
 # Print results
-print(f"Monthly total: {total}")
-print(f"Max sum of consecutive days: {max_sum}")
+print(f"Monthly total: {total}%")
+print(f"Max Profit: {max_sum}%")
