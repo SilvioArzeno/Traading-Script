@@ -1,7 +1,6 @@
 # Initialize variables
 days = []
 total = 0
-max_sum = 0
 current_sum = 0
 win_rate = 0
 
@@ -22,8 +21,6 @@ while True:
         days.append(amount)
         total += amount
         
-        # Update max sum of consecutive days
-        current_sum = max(amount, current_sum + amount)
         # Update win rate
         if amount > 0:
             win_rate += 1
@@ -35,11 +32,16 @@ while True:
 # Calculate maximum sum of consecutive days
 current_sum = 0
 max_sum = 0
+min_sum = 0
 for amount in days:
-    current_sum = max(amount, current_sum + amount)
+    current_sum = current_sum + amount
     max_sum = max(max_sum, current_sum)
+    min_sum = min(min_sum, current_sum)
 
 # Print results
-print(f"Monthly total: {total}")
-print(f"Max sum of consecutive days: {max_sum}")
-print(f"Win rate: {win_rate}/{len(days)}%")
+print(f"Monthly total: {total}%")
+print(f"Max Profit: {max_sum}%")
+print(f"Max Loss: {min_sum}%")
+print(f"Win rate: {(win_rate/len(days))*100}%")
+
+input('PRESS ENTER TO EXIT')

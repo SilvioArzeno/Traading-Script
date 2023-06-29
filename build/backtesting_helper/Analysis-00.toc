@@ -23,7 +23,47 @@
  [('backtesting_helper',
    'D:\\Algorithms\\TradingHelper\\backtesting_helper.py',
    'PYSOURCE')],
- [('_strptime',
+ [('quopri',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\quopri.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\struct.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('_strptime',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_strptime.py',
    'PYMODULE'),
@@ -43,17 +83,53 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\textwrap.py',
    'PYMODULE'),
-  ('copy',
+  ('_compression',
    'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_compression.py',
    'PYMODULE'),
-  ('gettext',
+  ('base64',
    'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\gettext.py',
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\base64.py',
    'PYMODULE'),
-  ('struct',
+  ('typing',
    'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\struct.py',
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\selectors.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\signal.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\pprint.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\string.py',
    'PYMODULE'),
   ('tempfile',
    'c:\\users\\silvio '
@@ -74,34 +150,6 @@
   ('logging',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('pickle',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\pickle.py',
-   'PYMODULE'),
-  ('pprint',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\pprint.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('threading',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\threading.py',
-   'PYMODULE'),
-  ('_threading_local',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_threading_local.py',
-   'PYMODULE'),
-  ('contextlib',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
-   'PYMODULE'),
-  ('string',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\string.py',
    'PYMODULE'),
   ('shutil',
    'c:\\users\\silvio '
@@ -147,17 +195,9 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\gzip.py',
    'PYMODULE'),
-  ('_compression',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_compression.py',
-   'PYMODULE'),
   ('lzma',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\lzma.py',
-   'PYMODULE'),
-  ('bz2',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\bz2.py',
    'PYMODULE'),
   ('getpass',
    'c:\\users\\silvio '
@@ -183,10 +223,6 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\mimetypes.py',
    'PYMODULE'),
-  ('getopt',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\getopt.py',
-   'PYMODULE'),
   ('email.utils',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\utils.py',
@@ -198,10 +234,6 @@
   ('email.encoders',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\encoders.py',
-   'PYMODULE'),
-  ('quopri',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\quopri.py',
    'PYMODULE'),
   ('email.errors',
    'c:\\users\\silvio '
@@ -234,10 +266,6 @@
   ('socket',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\socket.py',
-   'PYMODULE'),
-  ('selectors',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\selectors.py',
    'PYMODULE'),
   ('http.client',
    'c:\\users\\silvio '
@@ -302,34 +330,6 @@
   ('email',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\__init__.py',
-   'PYMODULE'),
-  ('base64',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\base64.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_py_abc.py',
-   'PYMODULE'),
-  ('subprocess',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\subprocess.py',
-   'PYMODULE'),
-  ('signal',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\signal.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\stringprep.py',
-   'PYMODULE'),
-  ('typing',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
    'PYMODULE')],
  [('VCRUNTIME140.dll',
    'c:\\users\\silvio '
@@ -339,6 +339,18 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\python37.dll',
    'BINARY'),
+  ('unicodedata.pyd',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
+   'EXTENSION'),
   ('_hashlib.pyd',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_hashlib.pyd',
@@ -347,25 +359,13 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_lzma.pyd',
    'EXTENSION'),
-  ('_bz2.pyd',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_bz2.pyd',
-   'EXTENSION'),
   ('_ssl.pyd',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_ssl.pyd',
    'EXTENSION'),
-  ('select.pyd',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
-   'EXTENSION'),
   ('_socket.pyd',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_socket.pyd',
-   'EXTENSION'),
-  ('unicodedata.pyd',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
   ('libcrypto-1_1.dll',
    'c:\\users\\silvio '
