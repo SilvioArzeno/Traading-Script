@@ -48,10 +48,6 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_bz2.pyd',
    'EXTENSION'),
-  ('select.pyd',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
-   'EXTENSION'),
   ('_hashlib.pyd',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_hashlib.pyd',
@@ -63,6 +59,10 @@
   ('_ssl.pyd',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
    'EXTENSION'),
   ('_socket.pyd',
    'c:\\users\\silvio '
