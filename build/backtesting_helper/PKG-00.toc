@@ -40,6 +40,10 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\python37.dll',
    'BINARY'),
+  ('select.pyd',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
+   'EXTENSION'),
   ('unicodedata.pyd',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\unicodedata.pyd',
@@ -59,10 +63,6 @@
   ('_ssl.pyd',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_ssl.pyd',
-   'EXTENSION'),
-  ('select.pyd',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
    'EXTENSION'),
   ('_socket.pyd',
    'c:\\users\\silvio '

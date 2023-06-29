@@ -61,6 +61,8 @@ print(f"Monthly total: {total}%")
 print(f"Max Profit: {max_sum}%")
 print(f"Max Loss: {min_sum}%")
 print(f"Win rate: {(win_rate / len(days)) * 100}%")
-print(f"Hit first: {hit_first}")
+print(f"Hit first: \033[1m{hit_first}\033[0m")
+if min_sum < -11:
+    print("\033[1m\033[91mTA QUEMAO BRO XD\033[0m")
 
 input('PRESS ENTER TO EXIT')
