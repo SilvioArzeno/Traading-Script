@@ -39,6 +39,30 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\calendar.py',
    'PYMODULE'),
+  ('colorama',
+   'C:\\Users\\Silvio '
+   'Arzeno\\AppData\\Roaming\\Python\\Python37\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'C:\\Users\\Silvio '
+   'Arzeno\\AppData\\Roaming\\Python\\Python37\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'C:\\Users\\Silvio '
+   'Arzeno\\AppData\\Roaming\\Python\\Python37\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'C:\\Users\\Silvio '
+   'Arzeno\\AppData\\Roaming\\Python\\Python37\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'C:\\Users\\Silvio '
+   'Arzeno\\AppData\\Roaming\\Python\\Python37\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'C:\\Users\\Silvio '
+   'Arzeno\\AppData\\Roaming\\Python\\Python37\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
   ('contextlib',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
@@ -46,6 +70,18 @@
   ('copy',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\ctypes\\wintypes.py',
    'PYMODULE'),
   ('datetime',
    'c:\\users\\silvio '

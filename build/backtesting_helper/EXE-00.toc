@@ -40,13 +40,13 @@
   ('backtesting_helper',
    'D:\\Algorithms\\TradingHelper\\backtesting_helper.py',
    'PYSOURCE'),
-  ('VCRUNTIME140.dll',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\VCRUNTIME140.dll',
-   'BINARY'),
   ('python37.dll',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\python37.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\VCRUNTIME140.dll',
    'BINARY'),
   ('select.pyd',
    'c:\\users\\silvio '
@@ -76,6 +76,10 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_socket.pyd',
    'EXTENSION'),
+  ('_ctypes.pyd',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
   ('libcrypto-1_1.dll',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\DLLs\\libcrypto-1_1.dll',
@@ -90,7 +94,7 @@
  [],
  False,
  False,
- 1688056319,
+ 1688056613,
  [('run.exe',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-32bit-intel\\run.exe',
