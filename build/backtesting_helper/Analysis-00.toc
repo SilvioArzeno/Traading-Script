@@ -23,11 +23,7 @@
  [('backtesting_helper',
    'D:\\Algorithms\\TradingHelper\\backtesting_helper.py',
    'PYSOURCE')],
- [('copy',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
-   'PYMODULE'),
-  ('_strptime',
+ [('_strptime',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_strptime.py',
    'PYMODULE'),
@@ -55,6 +51,22 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\struct.py',
    'PYMODULE'),
+  ('copy',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\string.py',
+   'PYMODULE'),
   ('subprocess',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\subprocess.py',
@@ -70,10 +82,6 @@
   ('_threading_local',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_threading_local.py',
-   'PYMODULE'),
-  ('contextlib',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
    'PYMODULE'),
   ('signal',
    'c:\\users\\silvio '
@@ -134,10 +142,6 @@
   ('_compat_pickle',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('string',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\string.py',
    'PYMODULE'),
   ('shutil',
    'c:\\users\\silvio '
@@ -327,10 +331,6 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
    'PYMODULE'),
-  ('typing',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
-   'PYMODULE'),
   ('colorama',
    'C:\\Users\\Silvio '
    'Arzeno\\AppData\\Roaming\\Python\\Python37\\site-packages\\colorama\\__init__.py',
@@ -367,13 +367,13 @@
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\lib\\ctypes\\_endian.py',
    'PYMODULE')],
- [('python37.dll',
-   'c:\\users\\silvio '
-   'arzeno\\appdata\\local\\programs\\python\\python37-32\\python37.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
+ [('VCRUNTIME140.dll',
    'c:\\users\\silvio '
    'arzeno\\appdata\\local\\programs\\python\\python37-32\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python37.dll',
+   'c:\\users\\silvio '
+   'arzeno\\appdata\\local\\programs\\python\\python37-32\\python37.dll',
    'BINARY'),
   ('select.pyd',
    'c:\\users\\silvio '

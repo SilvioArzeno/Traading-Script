@@ -22,7 +22,7 @@ while True:
         break
 
     try:
-        amount = int(amount_str)
+        amount = float(amount_str)
 
         # Add amount to list and total
         days.append(amount)
